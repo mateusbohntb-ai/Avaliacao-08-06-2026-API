@@ -11,10 +11,13 @@ import Footer from "./Components/Footer"
 
 
 
+
+
+
 //Import das Pages 
 
 import Home from "./Pages/Home"
-import Api from "./Pages/Api"
+
 import Dance from "./Pages/Dance"
 import Aleatorio from "./Pages/Aleatorio"
 
@@ -35,7 +38,8 @@ function App() {
 <Routes>
 
 <Route path='/' element={< Home/>} />
-<Route path='/api' element={< Api />} />
+
+
 <Route path='/dance' element={< Dance />} />
 <Route path='/aleatorio' element={< Aleatorio />} />
 
